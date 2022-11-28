@@ -22,7 +22,7 @@
     Assignments:
     <!-- link locations: relative to current directory -->
     <ul>
-      <li><a href="a2/index.php" target="_blank">A2</a></li>
+      <li><a href="../index.html" target="_blank">A1</a></li>
       <li><a href="a3/index.php" target="_blank">A3</a></li> <!-- File not currently existing -->
     </ul> |
     <!-- link locations: relative to e54061's public_html directory -->
