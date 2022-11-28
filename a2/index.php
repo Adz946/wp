@@ -15,7 +15,7 @@
 
   <header>
     <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
-    <div><img src='../media/RMIT_Logo.png' alt='RMIT University logo' height=80 />Adam Saleh</div>
+    <div><img src='../../media/RMIT_Logo.png' alt='RMIT University logo' height=80 />Adam Saleh</div>
   </header>
 
   <nav>
