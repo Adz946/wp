@@ -7,7 +7,7 @@
 
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
-    <link id='stylecss' type="text/css" rel="stylesheet" href="style.css?t=<?= filemtime("style.css"); ?>">
+    <link id='stylecss' type="text/css" rel="stylesheet" href="style.css" <?= filemtime("style.css"); ?> >
     <script src='../wireframe.js'></script>
   </head>
 
@@ -15,7 +15,7 @@
 
   <header>
     <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
-    <div><img src='../../media/RMIT_Logo.png' alt='RMIT University logo' height=80 />Adam Saleh</div>
+    <div><img src='../../media/RMIT_Logo.png' alt='RMIT University logo' height=80>Adam Saleh</div>
   </header>
 
   <nav>
@@ -34,7 +34,7 @@
     <main>
       <article id='Website Under Construction'>
     <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+        <img src='../../media/website-under-construction.png' alt='Website Under Construction'>
       </article>
     </main>
 
