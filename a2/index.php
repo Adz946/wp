@@ -13,13 +13,23 @@
 
   <body>
 
-    <header>
-      <div>Put company logo and name here</div>
-    </header>
+  <header>
+    <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
+    <div><img src='../media/RMIT_Logo.png' alt='RMIT University logo' height=80 />Adam Saleh</div>
+  </header>
 
-    <nav>
-      <div>Put website navigation links here</div>
-    </nav>
+  <nav>
+    Assignments:
+    <!-- link locations: relative to current directory -->
+    <ul>
+      <li><a href="a2/index.php" target="_blank">A2</a></li>
+      <li><a href="a3/index.php" target="_blank">A3</a></li> <!-- File not currently existing -->
+    </ul> |
+    <!-- link locations: relative to e54061's public_html directory -->
+    <a href="/~e54061/wp" target="_blank">Course Homepage</a> | <!-- Cannot Access -->
+    <a href="/~e54061/wp/lectures" target="_blank">Lectures 0 - 11</a> | <!-- Cannot Access -->
+    <a href="/~e54061/secure" target="_blank">Secure Resources Area</a> <!-- Cannot Access -->
+  </nav>
 
     <main>
       <article id='Website Under Construction'>
