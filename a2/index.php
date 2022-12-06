@@ -10,6 +10,6 @@
 
   <body>
     <header>
-      <img src="../../media/myLogo.png" height="128" alt="Lunardo Logo" />
+      <img src="../../media/myLogo.gif" height="128" alt="Lunardo Logo" />
     </header>
 </html>
