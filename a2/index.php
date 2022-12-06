@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Lunardo - Homepage</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="../backend.js"></script>
   </head>
 
@@ -19,9 +19,9 @@
         <button id="selector">Select Assignment</button>
 
         <div id="content">
-          <a href="a1/index.html">A1 Page</a>
-          <a id="active" href="a2/index.php">A2 Home</a>
-          <a href="a2/booking.php">A2 Booking</a>
+          <a href="../a1/index.html">A1 Page</a>
+          <a id="active" href="index.php">A2 Home</a>
+          <a href="booking.php">A2 Booking</a>
         </div>
       </div>
     </nav>
