@@ -19,9 +19,8 @@
         <button id="selector">Select Assignment</button>
 
         <div id="content">
-          <a href="../a1/index.html">A1 Page</a>
+          <a href="../a1/index.html">A1 Home</a>
           <a id="active" href="index.php">A2 Home</a>
-          <a href="booking.php">A2 Booking</a>
         </div>
       </div>
     </nav>
