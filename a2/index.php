@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Lunardo - Homepage</title>
 
-    <link rel="stylesheet" href="../style.css">
+    <link type="text/css" rel="stylesheet" href="../style.css">
     <script src="../backend.js"></script>
   </head>
 
@@ -33,7 +33,7 @@
     <footer>
       <hr>
 
-      <p id="footer"> 
+      <p> 
         &copy; Adam Saleh, s3940024 | 
         <script> document.write(new Date().getFullYear()); </script> |
         <a target="_blank" href="https://github.com/Adz946/WebProgramming_SP4_2022">My Repo</a>
