@@ -36,7 +36,7 @@
       <p> 
         &copy; Adam Saleh, s3940024 | 
         <script> document.write(new Date().getFullYear()); </script> |
-        <a target="_blank" href="https://github.com/Adz946/WebProgramming_SP4_2022">My Repo</a>
+        <a target="_blank" href="https://github.com/Adz946/wp">My Repo</a>
       </p>
   </footer>
 </html>

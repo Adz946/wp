@@ -3,6 +3,14 @@ nav {
     overflow: hidden;
 }
 
+nav a {
+    color: rgb(240, 234, 234);
+    display: block;
+    text-align: center;
+    float: left;
+    padding: 15px;
+}
+
 #active {
     background-color: darkgreen;
 }
@@ -28,6 +36,13 @@ nav {
     position: absolute;
     color: black;
     background-color: #1c1c1cf5;
+}
+
+#content a {
+    float: none;
+    padding: 15px;
+    display: block;
+    text-align: left;
 }
 
 body {
