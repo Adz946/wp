@@ -1,1 +1,39 @@
-/* This stylesheet is for your tested CSS, styles here will be deactivated when toggling wireframe style */
+nav {
+    background-color: #1c1c1cf5;
+    overflow: hidden;
+}
+
+#active {
+    background-color: darkgreen;
+}
+
+#assignment_selection:hover #content {
+    display: block;
+}
+
+#selector:hover #content:hover {
+    background-color: darkgreen;
+}
+
+#selector {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    background-color: inherit;
+}
+
+#content {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: #1c1c1cf5;
+}
+
+body {
+    background-color: #FEF9F8;
+}
+
+#footer {
+    text-align: end;
+}
