@@ -15,15 +15,9 @@
     </header>
 
     <nav>
-      <div id="assignment_selection">
-        <button id="selector">Select Assignment</button>
-
-        <div id="content">
-          <img src="../../media/Logo.png" height="32" alt="Logo" />
-          <a href="../a1/index.html">A1 Home</a>
-          <a id="active" href="index.php">A2 Home</a>
-        </div>
-      </div>
+      <img src="../../media/Logo.png" height="32" alt="Logo" />
+      <a href="../a1/index.html">A1 Home</a>
+      <a id="active" href="index.php">A2 Home</a>
     </nav>
 
     <body>
