@@ -10,7 +10,7 @@
 
   <body>
     <header>
-      <img src="../../media/Lunardo_Logo.png" height="128" alt="Lunardo Logo">Lunardo Cinemas</img>
+      <img src="../../media/Lunardo_Logo.png" height="70" alt="Lunardo Logo">Lunardo Cinemas</img>
       <hr>
     </header>
 
