@@ -10,7 +10,7 @@
 
   <body>
     <header>
-      <img src="../../media/Lunardo_Logo.png" height="150" alt="Lunardo Logo">Lunardo Cinemas</img>
+      <img src="../../media/Lunardo_Logo.png" height="150" alt="Lunardo Logo" />
       <hr>
     </header>
 
@@ -19,6 +19,7 @@
         <button id="selector">Select Assignment</button>
 
         <div id="content">
+          <img src="../../media/Logo.png" height="32" alt="Logo" />
           <a href="../a1/index.html">A1 Home</a>
           <a id="active" href="index.php">A2 Home</a>
         </div>
