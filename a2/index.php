@@ -47,6 +47,7 @@
                 <th>Seat Code</th>
                 <th>Normal Prices</th>
                 <th>Discount Prices</th>
+                <th>Our Seats</th>
             </tr>
 
             <tr>
@@ -54,6 +55,7 @@
                 <td>STA</td>
                 <td>$21.50</td>
                 <td>$16.00</td>
+                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
             </tr>
 
             <tr>
@@ -61,6 +63,7 @@
                 <td>STP</td>
                 <td>$19.00</td>
                 <td>$14.50</td>
+                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
             </tr>
 
             <tr>
@@ -68,6 +71,7 @@
                 <td>STC</td>
                 <td>$17.50</td>
                 <td>$13.00</td>
+                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
             </tr>
 
             <tr>
@@ -75,6 +79,7 @@
                 <td>FCA</td>
                 <td>$31.00</td>
                 <td>$25.00</td>
+                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
             </tr>
 
             <tr>
@@ -82,6 +87,7 @@
                 <td>FCP</td>
                 <td>$28.00</td>
                 <td>$23.50</td>
+                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
             </tr>
 
             <tr>
@@ -89,6 +95,7 @@
                 <td>FCC</td>
                 <td>$25.00</td>
                 <td>$22.00</td>
+                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
             </tr>
         </table>
       </section>
