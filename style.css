@@ -1,36 +1,23 @@
 /* -------------------- DEVICE DIFF. Section -------------------- */
 
-@media screen and (min-width: 720px) {
-    h2 { font-size: xx-large; }
-    #bold { font-size: x-large; }
-    p, td, nav { font-size: large; }
-}
-
-@media screen and (min-width: 480px) {
-    h2 { font-size: x-large; }
-    #bold { font-size: large; }
-    p, td, nav { font-size: medium; }
-}
-
 /* -------------------- HTML TAG Section -------------------- */
 
-html { text-align: center; }
+html {align-self: center;}
 header { text-align: left; }
 footer { text-align: right; }
-body { background-color: #FEF9F8; }
 section { height: fit-content; }
+body { background-color: #FEF9F8; text-align: center; max-width: 1920px; }
 
 /* -------------------- Style Section -------------------- */
 
 h1, h2, h3, h4, h5, h6 {
     padding: 5px;
-    font-family: 'lobster';
+    font-family: 'gugi';
     color: goldenrod;
     -webkit-text-stroke: 0.5px darkred; }
 
-p, td, nav { font-family: 'passion_one_regular'; }
-
-#bold, th { font-family: 'passion_one_bold'; }
+p, td, nav { font-family: 'mono_regular'; }
+#bold, th { font-family: 'mono_bold'; }
 
 /* -------------------- NAV Section -------------------- */
 
@@ -51,18 +38,8 @@ nav a {
 
 /* -------------------- TABLE Section -------------------- */
 
-table {
-    background-color: darkred;
-    margin-left: auto;
-    margin-right: auto; }
-
-th {
-    background-color: goldenrod;
-    color: darkred;
-    -webkit-text-stroke: 0.5px yellow; }
-
-tr { background-color: lightblue; }
-
+table { background-color: darkred; margin-left: auto; margin-right: auto; }
+th { background-color: goldenrod; color: darkred; }
 tr:hover { background-color: lightgreen; }
-
+tr { background-color: lightblue; }
 th, td { padding: 10px; }
