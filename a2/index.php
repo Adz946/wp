@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang='en'>
+
   <head>
     <meta charset="utf-8">
-    <title>Lunardo - Homepage</title>
-
-    <link type="text/css" rel="stylesheet" href="../style.css">
+    <title>Lunardo CINEMA</title>
     <script src="../backend.js"></script>
+    <link type="text/css" rel="stylesheet" href="../style.css">
+    <link type="text/css" rel="stylesheet" href="../fontsheet.css">
   </head>
 
   <body>
-    <header>
-      <img src="../../media/Lunardo_Logo.png" height="150" alt="Lunardo Logo" />
-      <hr>
-    </header>
+
+    <header> <img src="../../media/Lunardo_Logo.png" height="150" alt="Lunardo Logo" /> </header>
 
     <nav>
-      <a href="../a1/index.html">A1 Home</a>
-      <a id="active" href="index.php">A2 Home</a>
+      <a href="../a1/index.html">About Me</a>
+      <a id="active" href="index.php">Lunardo CINEMA</a>
     </nav>
 
     <body>
+
       <section>
         <h2>About Us</h2>
 
@@ -27,19 +27,19 @@
             After extensive improvement, the Lunardo staff is happy to welcomes you to a 
             once-in-a-lifetime experience! <br>
             
-            With <b>Reclinable</b> chairs in addition to our regular seatings and our brand new
-            <b>3D Dolby Vision</b> projection system, this'll be a fun time for all members of 
-            the family! <br><br>
+            With <span id="bold">reclinable chairs</span> in addition to our regular seatings and our brand 
+            new <span id="bold">3D Dolby Vision</span> projection system, this'll be a fun time for all 
+            members of the family! <br><br>
 
             To all newcomers and our ever loyal customers, we welcome you to the new <br>
-            <h4>LUNARDO CINEMA</h4>
+            <span id="bold">LUNARDO CINEMA</span>
         </p>
       </section>
 
       <hr>
 
       <section>
-        <h2>Check out our Seating System</h2>
+        <h2>Seats and Prices</h2>
 
         <table>
             <tr>
@@ -103,16 +103,18 @@
       <hr>
 
       <section>
-        <h2>Select Your Experience</h2>
-      </section>     
+        <h2>Now Showing</h2>
+      </section>  
+
     </body>
 
-    <footer>
-      <hr>
+    <hr>
 
+    <footer>
       <p> 
         &copy; Adam Saleh, s3940024 | 
         <a target="_blank" href="https://github.com/Adz946/wp">My Repo</a>
       </p>
   </footer>
+
 </html>
