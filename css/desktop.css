@@ -12,17 +12,16 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    nav a {
+    a {
         width: 100%;
     }
 
-    nav a:hover { 
+    a:hover { 
         font-weight: bolder;
         background-color: gold; 
         box-shadow: 1px 2px 3px darkred inset;
     }
 
-    aside p {
-        text-align: left;
-    }
+    img { width: 25%; }
+    aside img { width: 75%; }
 }

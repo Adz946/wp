@@ -1,19 +1,19 @@
 /* -------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'gugi';
-    src: url('custom_fonts/gugi.ttf'); }
+    src: url('../custom_fonts/gugi.ttf'); }
 /* -------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'mono_regular';
-    src: url('custom_fonts/space_mono_regular.ttf'); }
+    src: url('../custom_fonts/space_mono_regular.ttf'); }
 /* -------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'mono_italic';
-    src: url('custom_fonts/space_mono_italic.ttf'); }
+    src: url('../custom_fonts/space_mono_italic.ttf'); }
 /* -------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'mono_bold';
-    src: url('custom_fonts/space_mono_bold.ttf'); }
+    src: url('../custom_fonts/space_mono_bold.ttf'); }
 /* -------------------------------------------------------------------------------- */
 
 /* 
