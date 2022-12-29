@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+
+[class*="col-"] { 
+    float: left; 
+    padding: 1%; 
+    width: 100%; 
+}
+
+/* ---------------------------------------------------------------------- */
+
+html {
+    background-color: beige;
+    font-family: 'mono_regular';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px;
+    color: goldenrod;
+    font-family: 'gugi';
+    -webkit-text-stroke: 0.5px darkred; 
+}
+
+#bold { font-family: "mono_bold"; }
+
+header, nav, aside, footer {
+    box-shadow: 1px 2px 3px darkred;
+    background-color: lightgray;
+}
+
+/* ---------------------------------------------------------------------- */
+
+header img {
+    width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#content::before, #content:after {
+    content: "";
+    clear: both;
+    margin-top: 2%;
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------- */
+
+nav {
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-evenly;
+}
+
+nav a {
+    margin: 2.5%;
+    padding: 2%;
+    min-width: 40%;
+    display: block;
+    color: darkred;
+    position: sticky;
+    text-align: center;
+    background-color: goldenrod;
+    box-shadow: 1px 2px 3px darkred;
+}
+
+/* ---------------------------------------------------------------------- */
+
+section {
+    height: fit-content;
+}
+
+/* ---------------------------------------------------------------------- */
+
+aside img {
+    width: 50%;
+    height: auto;
+}
+
+aside p {
+    font-family: "mono_bold";
+}
+
+/* ---------------------------------------------------------------------- */
+
+footer {
+    padding: 15px;
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    color: darkgreen;
+    font-family: 'gugi';
+}

@@ -2,121 +2,86 @@
 <html lang='en'>
   <head>
     <meta charset="utf-8">
-    <title>Lunardo - Homepage</title>
-
-    <link type="text/css" rel="stylesheet" href="../style.css">
-    <link type="text/css" rel="stylesheet" href="../fontsheet.css">
-
-    
+    <title>Lunardo CINEMA</title>
     <script src="../backend.js"></script>
-
+    <link type="text/css" rel="stylesheet" href="../fontsheet.css">  
+    <link type="text/css" rel="stylesheet" href="../css/mobile.css"> 
+    <link type="text/css" rel="stylesheet" href="../css/desktop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
+  <header>
+    <h1>Lunardo CINEMA</h1>
+  </header>
+
   <body>
-    <header>
-        <img src="tempImages/Lunardo_Logo.png" height="200" alt="Lunardo Logo" />
-    </header>
+    <div id="content">
+      <nav class="col-2">
+        <a href="../a1/index.html">My Page</a>
+        <a href="index.html">Lunardo CINEMA</a>
+      </nav>
+  
+      <main class="col-8">
+        <section>
+          <h2>About Us</h2>
+  
+          <p>
+              After extensive improvement, the Lunardo staff is happy to welcomes you to a 
+              once-in-a-lifetime experience! <br>
+              
+              With <span id="bold">reclinable chairs</span> in addition to our regular seatings and our brand 
+              new <span id="bold">3D Dolby Vision</span> projection system, this'll be a fun time for all 
+              members of the family! <br><br>
+  
+              To all newcomers and our ever loyal customers, we welcome you to the new <br>
+              <span id="bold">LUNARDO CINEMA</span>
+          </p>
+        </section>
+  
+        <section>
+          <h2>Now Showing</h2>
+        </section>
+      </main>
+  
+      <aside class="col-2">
+        <h2>Our Seatings</h2>
 
-    <nav>
-      <a href="../a1/index.html">A1 Home</a>
-      <a id="active" href="index.html">A2 Home</a>
-    </nav>
+        <img src="tempImages/Profern-Standard-Twin.png">
 
-    <body>
-      <section>
-        <h2>About Us</h2>
+        <div>
+          <h3>Standard Adult</h3> <p>SeatCode - STA <br> Standard - $21.50 <br> Discount - $16.00</p>
+        </div>
 
-        <p>
-            After extensive improvement, the Lunardo staff is happy to welcomes you to a 
-            once-in-a-lifetime experience! <br>
-            
-            With <span id="bold">reclinable chairs</span> in addition to our regular seatings and our brand new
-            <span id="bold">3D Dolby Vision</span> projection system, this'll be a fun time for all members of 
-            the family! <br><br>
+        <div>
+          <h3>Standard Concession</h3> <p>SeatCode - STP <br> Standard - $19.00 <br> Discount - $14.50</p>
+        </div>
 
-            To all newcomers and our ever loyal customers, we welcome you to the new <br>
-            <span id="bold"> <i>Lunardo CINEMA</i> </span>
-        </p>
-      </section>
+        <div>
+          <h3>Standard Child</h3> <p>SeatCode - STC <br> Standard - $17.50 <br> Discount - $13.00</p>
+        </div>
 
-      <hr>
+        <img src="tempImages/Profern-Verona-Twin.png">
 
-      <section>
-        <h2>Seats and Prices</h2>
+        <div>
+          <h3>First-Class Adult</h3> <p>SeatCode - FCA <br> Standard - $31.00 <br> Discount - $25.00</p>
+        </div>
 
-        <table>
-            <tr>
-                <th>Seating</th>
-                <th>Seat Code</th>
-                <th>Normal Prices</th>
-                <th>Discount Prices</th>
-                <th>Our Seats</th>
-            </tr>
+        <div>
+          <h3>First-Class Concession</h3> <p>SeatCode - FCP <br> Standard - $28.00 <br> Discount - $23.50</p>
+        </div>
 
-            <tr>
-                <td>Standard Adult</td>
-                <td>STA</td>
-                <td>$21.50</td>
-                <td>$16.00</td>
-                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
-            </tr>
-
-            <tr>
-                <td>Standard Concession</td>
-                <td>STP</td>
-                <td>$19.00</td>
-                <td>$14.50</td>
-                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
-            </tr>
-
-            <tr>
-                <td>Standard Child</td>
-                <td>STC</td>
-                <td>$17.50</td>
-                <td>$13.00</td>
-                <td><img src="tempImages/Profern-Standard-Twin.png" height="40px" /></td>
-            </tr>
-
-            <tr>
-                <td>First-Class Adult</td>
-                <td>FCA</td>
-                <td>$31.00</td>
-                <td>$25.00</td>
-                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
-            </tr>
-
-            <tr>
-                <td>First-Class Concession</td>
-                <td>FCP</td>
-                <td>$28.00</td>
-                <td>$23.50</td>
-                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
-            </tr>
-
-            <tr>
-                <td>First-Class Child</td>
-                <td>FCC</td>
-                <td>$25.00</td>
-                <td>$22.00</td>
-                <td><img src="tempImages/Profern-Verona-Twin.png" height="40px" /></td>
-            </tr>
-        </table>
-      </section>
-
-      <hr>
-
-      <section>
-        <h2>Now Showing</h2>
-      </section>
-    </body>
-
-    <hr>
+        <div>
+          <h3>First-Class Child</h3> <p>SeatCode - FCC <br> Standard - $25.00 <br> Discount - $22.00</p>
+        </div>
+      </aside>
+    </div>
 
     <footer>
       <p> 
         &copy; Adam Saleh | s3940024 | 
         <a target="_blank" href="https://github.com/Adz946/wp">My Repo</a>
       </p>
-  </footer>
+    </footer>
+  </body>
+
 </html>
