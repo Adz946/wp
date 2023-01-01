@@ -4,7 +4,6 @@
   <head>
     <meta charset="utf-8">
     <title>Lunardo CINEMA</title>
-    <script src="../backend.js"></script>
     <link type="text/css" rel="stylesheet" href="../css/mobile.css"> 
     <link type="text/css" rel="stylesheet" href="../css/desktop.css">
     <link type="text/css" rel="stylesheet" href="../css/fontsheet.css">  
@@ -40,15 +39,23 @@
         <!-- -------------------------------------------------------------------------------- -->
         <section>
           <h2>Now Showing</h2>
-          <img id="box_art" src="../../Avatar.png">
-          <div id="info">
-            <p id="title"></p>
-            <p id="rating"></p>
-            <p id="synopsis"></p>
+          <div id="inFocus">
+            <img id="focus_image" src="tempImages/Avatar.png">
+            <div id="info">
+              <h3 id="focus_title">Avatar: The Way of Water | M</h3>
+              <p id="focus_synopsis">Jake Sully and Ney'tiri have formed a family and are doing everything to stay 
+                together. However, they must leave their home and explore the regions of Pandora. When an 
+                ancient threat resurfaces, Jake must fight a difficult war against the humans.</p>
+                <a href="booking.php">Book Now</a>
+            </div>
           </div>
-          <a href="booking.php">Book Now</a>
 
-          <div id="selection"></div>
+          <div id="selection">
+            <img src="tempImages/Avatar.png">
+            <img src="tempImages/Weird.png">
+            <img src="tempImages/Puss.png">
+            <img src="tempImages/Margrete.png">
+          </div>
         </section>
         <!-- -------------------------------------------------------------------------------- -->
       </main>
@@ -75,6 +82,9 @@
         <a target="_blank" href="https://github.com/Adz946/wp">My Repo</a>
       </p>
     </footer>
+    <!-- -------------------------------------------------------------------------------- -->
+    <script type="text/javascript" src="../jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="../movie_details.js"></script>
     <!-- -------------------------------------------------------------------------------- -->
   </body>
 </html>

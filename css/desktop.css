@@ -24,4 +24,13 @@
 
     img { width: 25%; }
     aside img { width: 75%; }
+
+    #inFocus {
+        display: flex;
+    }
+
+    #selection img:hover {
+        background-color: gold;
+        box-shadow: 1px 2px 3px darkred inset;
+    }
 }

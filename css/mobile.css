@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #bold { font-family: "mono_bold"; }
 
-header, nav, aside, footer {
+header, nav, aside, footer, #inFocus {
     box-shadow: 1px 2px 3px darkred;
     background-color: lightgray;
 }
@@ -66,8 +66,28 @@ a {
 
 /* ---------------------------------------------------------------------- */
 
+#inFocus {
+    padding: 5%;
+    max-height: 75%;
+}
+
 #info {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#selection {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+#selection img {
+    margin: 1%;
+    padding: 1%;
+    overflow: hidden;
+    background-color: goldenrod;
+    box-shadow: 1px 2px 3px darkred;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -83,6 +103,5 @@ footer {
     font-size: 16px;
     font-weight: bold;
     text-align: right;
-    color: darkgreen;
     font-family: 'gugi';
 }
