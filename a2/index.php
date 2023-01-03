@@ -40,7 +40,7 @@
         <section>
           <h2>Now Showing</h2>
           <div id="inFocus">
-            <img id="focus_image" src="tempImages/Avatar.png">
+            <img id="focus_image" src="../../media/Avatar.png">
             <div id="info">
               <h3 id="focus_title">Avatar: The Way of Water | M</h3>
               
@@ -76,12 +76,12 @@
       <aside class="col-2">
         <h2>Our Seatings</h2>
 
-        <img src="../../Profern-Standard-Twin.png">
+        <img src="../../media/Profern-Standard-Twin.png">
         <div> <h3>Standard Adult</h3> <p>SeatCode - STA <br> Standard - $21.50 <br> Discount - $16.00</p> </div>
         <div> <h3>Standard Concession</h3> <p>SeatCode - STP <br> Standard - $19.00 <br> Discount - $14.50</p> </div>
         <div> <h3>Standard Child</h3> <p>SeatCode - STC <br> Standard - $17.50 <br> Discount - $13.00</p> </div>
 
-        <img src="../../Profern-Verona-Twin.png">
+        <img src="../../media/Profern-Verona-Twin.png">
         <div> <h3>First-Class Adult</h3> <p>SeatCode - FCA <br> Standard - $31.00 <br> Discount - $25.00</p> </div>
         <div> <h3>First-Class Concession</h3> <p>SeatCode - FCP <br> Standard - $28.00 <br> Discount - $23.50</p> </div>
         <div> <h3>First-Class Child</h3> <p>SeatCode - FCC <br> Standard - $25.00 <br> Discount - $22.00</p> </div>
