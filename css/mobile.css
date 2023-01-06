@@ -6,11 +6,39 @@
     width: 100%; 
 }
 
+[class*="row-"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+[class*="row-"] button {
+    width: 75%;
+    margin: 2%;
+    box-shadow: 1px 2px 3px goldenrod;
+}
+
+#standard button {
+    background-color: lightblue;
+}
+
 /* ---------------------------------------------------------------------- */
 
 html {
+    text-align: center;
     background-color: beige;
     font-family: 'mono_regular';
+}
+
+header img {
+    width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
+header, nav, aside, footer, #inFocus {
+    box-shadow: 1px 2px 3px darkred;
+    background-color: lightgray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,22 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #bold { font-family: "mono_bold"; }
 
-header, nav, aside, footer, #inFocus {
-    box-shadow: 1px 2px 3px darkred;
-    background-color: lightgray;
-}
+aside p { font-family: "mono_bold"; }
 
-/* ---------------------------------------------------------------------- */
-
-header img {
-    width: 50%;
-    height: auto;
-    margin: 2%;
-}
-
-/* ---------------------------------------------------------------------- */
-
-body { text-align: center; }
+img { width: 50%; }
 
 #content::before, #content:after {
     content: "";
@@ -49,6 +64,7 @@ body { text-align: center; }
 
 nav {
     top: 0;
+    flex: 2;
     display: flex;
     flex-wrap: wrap;
     position: sticky;
@@ -68,6 +84,7 @@ a {
 
 #inFocus {
     padding: 5%;
+    margin-top: 5%;
     max-height: 75%;
 }
 
@@ -77,6 +94,14 @@ a {
     flex-direction: column;
 }
 
+#focus_image {
+    transition: .2s ease-in;
+}
+
+#focus_image:active, #focus_image:focus {
+    transform: scale(1.5);
+}
+
 #selection {
     margin: 2%;
     display: flex;
@@ -84,7 +109,6 @@ a {
 }
 
 #selection img {
-    flex: 2;
     margin: 1%;
     padding: 1%;
     overflow: hidden;
@@ -94,39 +118,22 @@ a {
 
 /* ---------------------------------------------------------------------- */
 
-#flip {
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+#focus_synopsis, #focus_trailer {
+    padding: 2%;
 }
 
-#flip:hover {
-    transform: rotateY(180deg);
-}
-
-#flip_1, #flip_2 {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-#flip_2 {
-    left: 0;
-    right: 0;
+iframe {
+    margin: 2%;
     display: none;
-    transform: rotateY(180deg);
+    overflow: hidden;
 }
-
-/* ---------------------------------------------------------------------- */
-
-img { width: 50%; }
-aside p { font-family: "mono_bold"; }
 
 /* ---------------------------------------------------------------------- */
 
 footer {
     padding: 15px;
     margin-top: 4%;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    text-align: right;
     font-family: 'gugi';
 }

@@ -40,34 +40,22 @@
         <section>
           <h2>Now Showing</h2>
           <div id="inFocus">
-            <img id="focus_image" src="../../media/Avatar.png">
-            <div id="info">
-              <h3 id="focus_title">Avatar: The Way of Water | M</h3>
-              
-              <div id="flip">
-                <div id="flip_1">
-                  <p id="focus_synopsis">
-                    Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. 
-                    However, they must leave their home and explore the regions of Pandora. When an 
-                    ancient threat resurfaces, Jake must fight a difficult war against the humans.
-                  </p>
-                </div>
-                
-                <div id="flip_2">
-                  <iframe id="focus_trailer" src="https://www.youtube.com/embed/d9MyW72ELq0" 
-                          frameBorder="0" allowfullscreen></iframe>
-                </div>
-              </div>
+            <img id="focus_image">
 
-                <a href="booking.php">Book Now</a>
+            <div id="info">
+              <h3 id="focus_title"></h3>
+              <p id="focus_synopsis"></p>
+              <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
+              <a id="flip_switch">Watch Trailer</a>
+              <a href="booking.html">Book Now</a>
             </div>
           </div>
 
           <div id="selection">
-            <img src="tempImages/Avatar.png">
-            <img src="tempImages/Weird.png">
-            <img src="tempImages/Puss.png">
-            <img src="tempImages/Margrete.png">
+            <img src="../images/Avatar.png">
+            <img src="../images/Weird.png">
+            <img src="../images/Puss.png">
+            <img src="../images/Margrete.png">
           </div>
         </section>
         <!-- -------------------------------------------------------------------------------- -->
