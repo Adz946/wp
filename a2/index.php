@@ -47,7 +47,7 @@
               <p id="focus_synopsis"></p>
               <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
               <a id="flip_switch">Watch Trailer</a>
-              <a href="booking.html">Book Now</a>
+              <a href="booking.php">Book Now</a>
             </div>
           </div>
 
