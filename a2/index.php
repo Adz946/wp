@@ -17,7 +17,7 @@
       <!-- -------------------------------------------------------------------------------- -->
       <nav class="col-2">
         <a href="../a1/index.html">My Page</a>
-        <a href="index.html">Lunardo CINEMA</a>
+        <a href="index.php">Lunardo CINEMA</a>
       </nav>
       <!-- -------------------------------------------------------------------------------- -->
       <main class="col-8">
@@ -52,10 +52,10 @@
           </div>
 
           <div id="selection">
-            <img src="../images/Avatar.png">
-            <img src="../images/Weird.png">
-            <img src="../images/Puss.png">
-            <img src="../images/Margrete.png">
+            <img src="../../media/Avatar.png">
+            <img src="../../media/Weird.png">
+            <img src="../../media/Puss.png">
+            <img src="../../media/Margrete.png">
           </div>
         </section>
         <!-- -------------------------------------------------------------------------------- -->

@@ -17,7 +17,7 @@
             <!-- -------------------------------------------------------------------------------- -->
             <nav class="col-2">
                 <a href="../a1/index.html">My Page</a>
-                <a href="index.html">Lunardo CINEMA</a>
+                <a href="index.php">Lunardo CINEMA</a>
             </nav>
             <!-- -------------------------------------------------------------------------------- -->
             <main class="col-8">

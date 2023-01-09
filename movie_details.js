@@ -85,7 +85,7 @@ function set_seats() {
 // ---------------------------------------------------------------------------------------------------- //
 $(window).on('load', function() {
     let path = location.pathname.split("/").pop();
-    if (path == "booking.html") { load_movie(); load_times(); }
+    if (path == "booking.php") { load_movie(); load_times(); }
     else { set_movie(Avatar); load_movie(); }
 })
 // ---------------------------------------------------------------------------------------------------- //
