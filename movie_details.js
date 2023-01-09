@@ -35,51 +35,95 @@ let Margrete = new Movie("AHF", "Margrete: Queen of the North", "MA15", "Margret
                 "her adopted son, King Erik. However, a conspiracy is afoot.");
                 // ---------------------------------------------------------------------- //
 let movies = [Avatar, Weird, Puss, Margrete];
+let seat_selection = [];
 // ---------------------------------------------------------------------------------------------------- //
-function load_data() {
-    let movie = JSON.parse(localStorage.getItem("movie"))
+function set_movie(movie) {
+    localStorage.removeItem("movie");
+    localStorage.setItem("movie", JSON.stringify(movie));
+}
+// ---------------------------------------------------------------------- //
+function load_movie() {
+    let movie = JSON.parse(localStorage.getItem("movie"));
     $("#focus_image").attr("src", "../../media/" + movie.image);
     $("#focus_title").text(movie.title + " | " + movie.rating);
     $("#focus_synopsis").text(movie.synopsis);
     $("#focus_trailer").attr("src", "https://www.youtube.com/embed/" + movie.trailer);
 };
 // ---------------------------------------------------------------------- //
-function set_data(movie) {
-    localStorage.clear();
-    localStorage.setItem("movie", JSON.stringify(movie));
-}
+function load_times() {
+    let movie = JSON.parse(localStorage.getItem("movie"));
+    $("#times-Mon").text(movie.day_time[0][1]);
+    $("#times-Tue").text(movie.day_time[0][1]);
+    $("#times-Wed").text(movie.day_time[1][1]);
+    $("#times-Thu").text(movie.day_time[1][1]);
+    $("#times-Fri").text(movie.day_time[1][1]);
+    $("#times-Sat").text(movie.day_time[2][1]);
+    $("#times-Sun").text(movie.day_time[2][1]);
+};
 // ---------------------------------------------------------------------- //
+function set_day_time(day_time) {
+    $("#seats").show();
+    localStorage.removeItem("day_time");
+    localStorage.setItem("day_time", day_time);
+};
+// ---------------------------------------------------------------------- //
+// Standard Seats - rgb(173, 216, 230) | light blue
+// First Class Seats - rgb(240, 128, 128) | light coral [red]
+function set_seats() {
+    localStorage.removeItem("seating");
+    localStorage.setItem("seating", seat_selection);
+    seat_selection.length = 0;
+
+    $("button").each(function() {
+        let row = $(this).text()[0];
+        if (row == "A" || row == "B") 
+            { $(this).css("background-color", "rgb(173, 216, 230)"); }
+        else if (row == "C" || row == "D")
+            { $(this).css("background-color", "rgb(240, 128, 128)"); }
+    });
+}
+// ---------------------------------------------------------------------------------------------------- //
 $(window).on('load', function() {
     let path = location.pathname.split("/").pop();
-    if (path == "booking.php") { load_data(); }
-    else { set_data(Avatar); load_data(); }
+    if (path == "booking.html") { load_movie(); load_times(); }
+    else { set_movie(Avatar); load_movie(); }
 })
-// ---------------------------------------------------------------------- //
+// ---------------------------------------------------------------------------------------------------- //
 $(document).ready(function() {
     // ---------------------------------------------------------------------- //
     $("#selection img").click(function() {
         var img = $(this).attr("src");
         var mv = movies.find(m => "../../media/" + m.image === img);
-        set_data(mv);
-        load_data();
+        set_movie(mv);
+        load_movie();
+        $('html, body').animate( {scrollTop: $("#inFocus").offset().top}, 250 );
     });
     // ---------------------------------------------------------------------- //
-    let change = 0;
-    // ---------------------------------------------------------------------- //
     $("#flip_switch").click(function() {
-        if (change == 0) {
+        if ( $("#focus_synopsis").is(":visible") ) {
             $("#focus_synopsis").hide();
             $("#focus_trailer").show(); 
             $(this).text("Read Synopsis");
-            change = 1;
         }
-
-        else if (change == 1) {
+        else if ( $("#focus_synopsis").is(":hidden") ) {
             $("#focus_synopsis").show();
             $("#focus_trailer").hide();
             $(this).text("Watch Trailer"); 
-            change = 0;
         }
     });
     // ---------------------------------------------------------------------- //
+    $("[class*='days-']").click(function() {
+        if ($(this).find("p").text() != " - ") {
+            $("#times a").attr("id", "noID");
+            $(this).attr("id", "day_time");
+            set_day_time($(this).find("h3").text() + "_" + $(this).find("p").text());
+        }
+        else { alert(JSON.parse(localStorage.getItem("movie")).title + " is not playing on that day.")};
+    });
+    // ---------------------------------------------------------------------- //
+    $("[class*='row-'] button").click(function() {
+        seat_selection.push($(this).text());
+        $(this).css("background-color", "rgb(169, 169, 169)");
+    });
+    $("#set_seats").click(function() { set_seats(); });
 });

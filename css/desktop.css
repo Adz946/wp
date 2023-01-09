@@ -26,11 +26,22 @@
     aside img { width: 75%; }
 
     #inFocus {
+        margin-top: 0;
         display: flex;
+        align-items: center;
+    }
+
+    #selection img {
+        min-width: 10%;
     }
 
     #selection img:hover {
         background-color: gold;
         box-shadow: 1px 2px 3px darkred inset;
+    }
+
+    footer {
+        font-size: 16px;
+        text-align: right;
     }
 }

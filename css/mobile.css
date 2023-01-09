@@ -6,22 +6,6 @@
     width: 100%; 
 }
 
-[class*="row-"] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-[class*="row-"] button {
-    width: 75%;
-    margin: 2%;
-    box-shadow: 1px 2px 3px goldenrod;
-}
-
-#standard button {
-    background-color: lightblue;
-}
-
 /* ---------------------------------------------------------------------- */
 
 html {
@@ -38,12 +22,12 @@ header img {
 
 header, nav, aside, footer, #inFocus {
     box-shadow: 1px 2px 3px darkred;
-    background-color: lightgray;
+    background-color: silver;
 }
 
 h1, h2, h3, h4, h5, h6 {
     padding: 5px;
-    color: goldenrod;
+    color: rgb(218, 165, 32);
     font-family: 'gugi';
     -webkit-text-stroke: 0.5px darkred; 
 }
@@ -105,12 +89,14 @@ a {
 #selection {
     margin: 2%;
     display: flex;
+    overflow-x: scroll;
     flex-direction: row;
 }
 
 #selection img {
     margin: 1%;
     padding: 1%;
+    min-width: 50%;
     overflow: hidden;
     background-color: goldenrod;
     box-shadow: 1px 2px 3px darkred;
@@ -126,6 +112,63 @@ iframe {
     margin: 2%;
     display: none;
     overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------- */
+
+[class*="row-"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+[class*="row-"] button {
+    max-width: 100%;
+    margin: 2%;
+    box-shadow: 1px 2px 3px goldenrod;
+}
+
+#standard button {
+    background-color: rgb(173, 216, 230);
+}
+
+#first-class button {
+    background-color: rgb(240, 128, 128);
+}
+
+/* ---------------------------------------------------------------------- */
+
+#form, #seats {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#times { 
+    display: flex; 
+    flex-direction: row; 
+}
+
+#seats { 
+    display: none;
+ }
+
+ #set_seats { float: left; margin-top: 2%;}
+
+[class*="days-"] {
+    margin: 2%;
+    min-width: 10%;
+}
+
+[class*="days-"] * {
+    padding: 2%;
+    color: black;
+    font-weight: bolder;
+}
+
+#day_time {
+    background-color: darkgray;
 }
 
 /* ---------------------------------------------------------------------- */

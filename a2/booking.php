@@ -34,13 +34,41 @@
                       </div>
                 </section>
                 <!-- -------------------------------------------------------------------------------- -->
-                <section>
-                    <h2>SEATING PLANNNNNS!!</h2>
-                    <div>
-                        <div class="row-1" id="standard">
-                            <button>A8</button> <button>A7</button> <button>A6</button> <button>A5</button> 
-                            <h3>A</h3>
-                            <button>A4</button> <button>A3</button> <button>A2</button> <button>A1</button>
+                <section>        
+                    <div id="form">
+                        <h2>When do you want to Watch?</h2>          
+                        <div id="times">
+                            <a class="days-Mon"> <h3>MON</h3> <p id="times-Mon"></p> </a>
+                            <a class="days-Tue"> <h3>TUE</h3> <p id="times-Tue"></p> </a>
+                            <a class="days-Wed"> <h3>WED</h3> <p id="times-Wed"></p> </a>
+                            <a class="days-Thu"> <h3>THU</h3> <p id="times-Thu"></p> </a>
+                            <a class="days-Fri"> <h3>FRI</h3> <p id="times-Fri"></p> </a>
+                            <a class="days-Sat"> <h3>SAT</h3> <p id="times-Sat"></p> </a>
+                            <a class="days-Sun"> <h3>SUN</h3> <p id="times-Sun"></p> </a>
+                        </div>
+                        <div id="seats">
+                            <h2>Select Your Seats</h2>
+                            <div class="row-4" id="first-class">
+                                <button>D4</button> <button>D3</button>
+                                <h3>D</h3>
+                                <button>D2</button> <button>D1</button>
+                            </div>
+                            <div class="row-3" id="first-class">
+                                <button>C6</button> <button>C5</button> <button>C4</button>
+                                <h3>C</h3>
+                                <button>C3</button> <button>C2</button> <button>C1</button>
+                            </div>
+                            <div class="row-2" id="standard">
+                                <button>B8</button> <button>B7</button> <button>B6</button> <button>B5</button> 
+                                <h3>B</h3>
+                                <button>B4</button> <button>B3</button> <button>B2</button> <button>B1</button>
+                            </div>
+                            <div class="row-1" id="standard">
+                                <button>A8</button> <button>A7</button> <button>A6</button> <button>A5</button> 
+                                <h3>A</h3>
+                                <button>A4</button> <button>A3</button> <button>A2</button> <button>A1</button>
+                            </div>
+                            <a id="set_seats">Set Seats</a>
                         </div>
                     </div>
                 </section>
