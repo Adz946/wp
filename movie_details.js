@@ -52,13 +52,13 @@ function load_movie() {
 // ---------------------------------------------------------------------- //
 function load_times() {
     let movie = JSON.parse(localStorage.getItem("movie"));
-    $("#times-Mon").text(movie.day_time[0][1]);
-    $("#times-Tue").text(movie.day_time[0][1]);
-    $("#times-Wed").text(movie.day_time[1][1]);
-    $("#times-Thu").text(movie.day_time[1][1]);
-    $("#times-Fri").text(movie.day_time[1][1]);
-    $("#times-Sat").text(movie.day_time[2][1]);
-    $("#times-Sun").text(movie.day_time[2][1]);
+    $("#times-Mon").text(movie.days_time[0][1]);
+    $("#times-Tue").text(movie.days_time[0][1]);
+    $("#times-Wed").text(movie.days_time[1][1]);
+    $("#times-Thu").text(movie.days_time[1][1]);
+    $("#times-Fri").text(movie.days_time[1][1]);
+    $("#times-Sat").text(movie.days_time[2][1]);
+    $("#times-Sun").text(movie.days_time[2][1]);
 };
 // ---------------------------------------------------------------------- //
 function set_day_time(day_time) {
