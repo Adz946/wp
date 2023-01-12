@@ -69,7 +69,7 @@
       <aside class="col-2">
         <h2>Our Seatings</h2>
         <div id="prices-standard">
-            <img src="../images/Profern-Standard-Twin.png">
+            <img src="../../media/Profern-Standard-Twin.png">
             <h3>Standard Adult</h3> 
             <p>SeatCode - STA <br> Standard - $21.50 <br> Discount - $16.00</p>
             <h3>Standard Concession</h3>
@@ -79,7 +79,7 @@
         </div>
 
         <div id="prices-first_class">
-            <img src="../images/Profern-Verona-Twin.png">
+            <img src="../../media/Profern-Verona-Twin.png">
             <h3>First-Class Adult</h3>
             <p>SeatCode - FCA <br> Standard - $31.00 <br> Discount - $25.00</p>
             <h3>First-Class Concession</h3>
