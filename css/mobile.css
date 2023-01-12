@@ -25,12 +25,19 @@ header, nav, aside, footer, #inFocus {
     background-color: silver;
 }
 
+p, h4 { 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     padding: 5px;
     color: rgb(218, 165, 32);
     font-family: 'gugi';
     -webkit-text-stroke: 0.5px darkred; 
 }
+
+h1, h2, h3 { padding: 2%; }
 
 #bold { font-family: "mono_bold"; }
 
@@ -68,8 +75,32 @@ a {
 
 #inFocus {
     padding: 5%;
-    margin-top: 5%;
-    max-height: 75%;
+    display: grid;
+    overflow: hidden;
+    transform: rotateY(0);
+    transform-style: preserve-3d;
+    transition: transform 2s ease-in;
+}
+
+.flipped {
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+#front, #back {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: silver;
+    transition: transform 0.8s ease-in;
+}
+
+#front {
+    height: auto;
+    transform: rotateY(180);
+}
+
+#back { 
+    transform: rotateY(-180);
 }
 
 #info {
@@ -80,10 +111,6 @@ a {
 
 #focus_image {
     transition: .2s ease-in;
-}
-
-#focus_image:active, #focus_image:focus {
-    transform: scale(1.5);
 }
 
 #selection {
@@ -113,6 +140,41 @@ iframe {
     display: none;
     overflow: hidden;
 }
+
+#row_ {
+    padding: 2%;
+}
+
+#details { 
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center; 
+    flex-direction: row; 
+}
+
+[id*="grid-"] { 
+    display: flex; 
+    flex-basis: 45%;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+[id*="grid-"] img {
+    width: 75px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+[id*="prices-"] {
+    padding-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    box-shadow: 1px 2px 3px darkred inset;
+}
+
+#prices-standard { background-color: lightblue; }
+
+#prices-first_class { background-color: lightcoral; } 
 
 /* ---------------------------------------------------------------------- */
 
@@ -152,7 +214,13 @@ iframe {
 
 #seats { 
     display: none;
- }
+}
+
+#seats img {
+    width: 75%;
+    margin-top: 5%;
+    image-rendering: pixelated;
+}
 
  #set_seats { float: left; margin-top: 2%;}
 
@@ -172,6 +240,8 @@ iframe {
 }
 
 /* ---------------------------------------------------------------------- */
+
+#purchase { display: none; }
 
 footer {
     padding: 15px;

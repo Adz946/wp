@@ -22,13 +22,22 @@
         box-shadow: 1px 2px 3px darkred inset;
     }
 
+    a:focus {
+        background-color: yellow;
+        box-shadow: 3px 2px 1px purple inset;
+    }
+
     img { width: 25%; }
     aside img { width: 75%; }
 
-    #inFocus {
-        margin-top: 0;
+    #front {
         display: flex;
         align-items: center;
+    }
+
+    [id*="grid-"] { 
+        flex-basis: 33%; 
+        flex-direction: column; 
     }
 
     #selection img {

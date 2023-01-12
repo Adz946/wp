@@ -40,15 +40,20 @@
         <section>
           <h2>Now Showing</h2>
           <div id="inFocus">
-            <img id="focus_image">
 
-            <div id="info">
-              <h3 id="focus_title"></h3>
-              <p id="focus_synopsis"></p>
-              <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
-              <a id="flip_switch">Watch Trailer</a>
-              <a href="booking.php">Book Now</a>
+            <div id="back"> <div id="row_"></div> <div id="details"></div> </div>
+
+            <div id="front">
+              <img id="focus_image">
+              <div id="info">
+                <h3 id="focus_title"></h3>
+                <p id="focus_synopsis"></p>
+                <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
+                <a id="flip_switch">Watch Trailer</a>
+                <a href="booking.html">Book Now</a>
+              </div>
             </div>
+            <a id="card_flip">Meet the Cast</a>
           </div>
 
           <div id="selection">

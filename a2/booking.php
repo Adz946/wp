@@ -22,16 +22,22 @@
             <!-- -------------------------------------------------------------------------------- -->
             <main class="col-8">
                 <section>
-                    <div id="inFocus">
-                        <img id="focus_image">
-            
-                        <div id="info">
-                          <h3 id="focus_title"></h3>
-                          <p id="focus_synopsis"></p>
-                          <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
-                          <a id="flip_switch">Watch Trailer</a>
-                        </div>
-                      </div>
+                <div id="inFocus">
+                <div id="back"> <div id="row_"></div> <div id="details"></div> </div>
+
+                <div id="front">
+                    <img id="focus_image">
+                    <div id="info">
+                        <h3 id="focus_title"></h3>
+                        <p id="focus_synopsis"></p>
+                        <iframe id="focus_trailer" frameBorder="0" allowfullscreen></iframe>
+                        <a id="flip_switch">Watch Trailer</a>
+                        <a href="booking.html">Book Now</a>
+                    </div>
+                </div>
+
+                <a id="card_flip">Meet the Cast</a>
+                </div>
                 </section>
                 <!-- -------------------------------------------------------------------------------- -->
                 <section>        
@@ -69,6 +75,9 @@
                                 <button>A4</button> <button>A3</button> <button>A2</button> <button>A1</button>
                             </div>
                             <a id="set_seats">Set Seats</a>
+                            <div id="purchase">
+                                <div id="inFocus"></div>
+                            </div>
                         </div>
                     </div>
                 </section>
